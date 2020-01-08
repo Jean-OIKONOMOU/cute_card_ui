@@ -1,0 +1,1 @@
+After a long hiatus in web development I finally have time to do something ! This is just my first project I decided to do, to start off slowly, just some simple HTML/CSS :)
