@@ -1,0 +1,100 @@
+@import url('https://font.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --background: #ebf5fc;
+    --fontc: #32a3b1;
+    --fullwidth: 100%;
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 110rem;
+    text-align: center;
+}
+
+.container .card {
+    transition: .2s ease-in-out;
+    display : flex;
+    flex-direction: column;
+    width: 32rem;
+    margin: 2rem;
+    padding: 4rem 3rem;
+    border-radius: 4rem;
+    background: var(--background);
+    box-shadow: -6px -6px 50px rgba(255,255,255,1),
+                6px 6px 5px rgba(0,0,0,.1);
+}
+
+.container .card:hover {
+    box-shadow: inset -6px -6px 10px rgba(255,255,255,.5),
+                inset 6px 6px 20px rgba(0,0,0,.05);
+    padding: 3.6rem 3rem;
+}
+
+.container .card .imgBx {
+    position: relative;
+}
+
+.container .card .imgBx img {
+    max-width: 12rem;
+}
+
+.container .card .contentBx {
+    position: relative;
+    margin-top: 2rem;
+    color: var(--fontc);
+    letter-spacing: .2rem;
+    padding: .8rem 0;
+}
+
+.container .card .contentBx p {
+    font-size: 1.3rem;
+    
+}
+
+.container .card .contentBx h2 {    
+    font-weight: 700;
+    letter-spacing: .2rem;
+    font-size: 2rem;
+    padding: .8rem 0;
+}
+
+.container .card .contentBx a {
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin-top: 1.5rem;
+    border-radius: 4rem;
+    text-decoration: none;
+    box-shadow: -4px -4px 15px rgba(255,255,255,1),
+                4px 4px 15px rgba(0,0,0,.1);
+}
+
+.container .card .contentBx a:hover {
+    box-shadow: inset -4px -4px 10px rgba(255,255,255,.5),
+                inset 4px 4px 10px rgba(0,0,0,.1);
+}
+
+.container .card .contentBx a:hover span {
+    display: block;
+    transition: .8s ease-in-out;
+}

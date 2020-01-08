@@ -1,1 +1,2 @@
 After a long hiatus in web development I finally have time to do something ! This is just my first project I decided to do, to start off slowly, just some simple HTML/CSS :)
+To get myself up to speed I'll turn this website into a PWA, and an installable Chrome website, though.
